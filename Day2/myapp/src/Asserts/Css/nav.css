@@ -1,0 +1,73 @@
+body {
+    font-family:'Lobster', cursive;
+
+    background-image: url('https://wallpaperaccess.com/full/2641051.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    
+}
+
+header {
+    font-family:'Lobster', cursive;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+p{
+    margin: 0;
+  padding-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    width: auto;
+}
+
+nav {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+p{
+    font-family:'Lobster', cursive;
+    font-size: x-large;
+    color:rgb(68, 11, 51);
+}
+
+nav a {
+    font-family:'Lobster', cursive;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

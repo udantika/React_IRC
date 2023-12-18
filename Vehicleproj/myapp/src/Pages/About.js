@@ -4,6 +4,10 @@ const About=()=>
  {
     return (
         <div>
+            <Link to='/about'>
+
+            <h1>About</h1>
+            </Link>
         <header>
             
              <h2 class="header-title">About-Vehicle paraside</h2>

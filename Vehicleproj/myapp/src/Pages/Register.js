@@ -8,9 +8,9 @@ const Register=()=>
         <div>
       
 <form>
-       {/* <Link to = './reg'> */}
+       <Link to = './reg'>
     <h2>Register</h2>
-    {/* </Link> */}
+    </Link>
     
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required/>

@@ -43,14 +43,16 @@ const Home =()=>
     
     <ul class="navbar">
     <li><a href="#home">Home</a></li>
-    {/* <Link to = './log'> */}
+    <Link to = './log'>
     <li><a href="#login">Login</a></li>
-    {/* </Link> */}
-    {/* <Link to = './Register'> */}
+    </Link>
+    <Link to = './Register'>
     <li><a href="#register">Register</a></li>
-    {/* </Link> */}
-    {/* <li><a href="#about">Register</a></li> */}
+    </Link>
+      <Link to='./about'>
+
     <li><a href="#services">About</a></li>
+      </Link>
     <li><a href="#contact">Contact</a></li>
     </ul>
 

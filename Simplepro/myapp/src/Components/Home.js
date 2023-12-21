@@ -1,5 +1,5 @@
 import '../Assets/Css/home.css';
-
+import Foot from './Foot';
 const Home=()=>{
     return(
         <>
@@ -23,13 +23,13 @@ const Home=()=>{
   <a href="http://www.flickr.com/photos/nataliedowne/2352490411/in/set-72157604232220981/" class="small polaroid img14"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-9_QfqiVE_DGr8pbT7R1S054O2omHcrzF0Za1TXt_3QehfDWw3C-jRMVGIkNcw84d9Ho&usqp=CAU" alt=""/>Stewart Island</a>
   <a href="http://www.flickr.com/photos/nataliedowne/2339184562/in/set-72157604232220981/" class="polaroid img15"><img src="https://c4.wallpaperflare.com/wallpaper/65/370/485/scania-truck-vehicle-wallpaper-preview.jpg" alt=""/>Us in a blue cave on the Franz Josef glacier</a>
 
+
+  
 </div>
 
-
-
-
-
 </body>
+
+<Foot/>
 
 </>
   )

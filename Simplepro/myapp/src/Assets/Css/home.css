@@ -8,6 +8,8 @@
         font-family:'Lobster', cursive;
         overflow: hidden;
         background-size: cover;
+        padding-bottom: 40px;
+        padding-top: 0px;
       }
       .amp {
         font-family: Garamond, Baskerville, Georgia, serif !important;

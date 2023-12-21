@@ -2,14 +2,18 @@ import '../Assets/Css/reg.css';
 
 const Register=()=>
 {
+   
+      const Hello = ()=>{
+      alert("Successfully Registered");
+      }
+
     return(
     
 <div>
     <body className="regbo">
-      
-      <form>
+      <form className='formreg'>
             
-          <h2>Register</h2>
+          <h2 className='h2reg'>Register</h2>
           
           
               <label for="username">Username:</label>
@@ -24,7 +28,12 @@ const Register=()=>
               <label for="number">Mobile Number:</label>
               <input type="number" id="number" name="number" required/>
           
-              <input type="submit" value="Register"/>
+    <form class="containr" onClick={Hello} required>
+              <input type="submit" value="Register" required/>
+
+             
+        </form>
+
       </form>
 </body>
  </div>

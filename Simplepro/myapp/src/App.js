@@ -4,13 +4,10 @@ import Home from './Components/Home.js';
 import Log from './Components/Log.js';
 import Register from './Components/Register.js';
 import Footer from './Components/Footer.js';
-// import Contact from './Components/Contact.js';ls
-
-
-
 import  { BrowserRouter as Router,Routes,Route } from "react-router-dom";
-
-
+import Services from './Components/Services.js';
+import Services1 from './Components/Services1.js';
+import Book from './Components/Book.js';
 
 function App(){
   return(
@@ -22,7 +19,9 @@ function App(){
         <Route path="/Log" element={<Log/>}></Route>
         <Route path="/Register" element={<Register/>}></Route>
         <Route path="/Footer" element={<Footer/>}></Route>
-        {/* <Route path="/Contact" element={<Contact/>}></Route>  */}
+        <Route path="/Services" element={<Services/>}></Route> 
+        <Route path="/Services1" element={<Services1/>}></Route> 
+        <Route path="/Book" element={<Book/>}></Route> 
       </Routes>
     </Router>
     

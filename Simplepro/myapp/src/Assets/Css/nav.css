@@ -4,7 +4,7 @@
     font-family:Arial, Helvetica, sans-serif;
     font-style:normal;
     font-weight: 100px;
-    background:#212121;
+    background-color: black;
     padding: 15px 0;
     justify-content: end;
   }
@@ -220,4 +220,6 @@ ul.navbar {
     font-weight: 300;
     src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
   }
+  
+
   

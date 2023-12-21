@@ -39,7 +39,7 @@ const Navbar = () => {
         <a href="#">
           <i class="fa fa-globe fa-2x"></i>
           <span class="nav-text">
-            Global Surveyors
+           <Link to="/Services" className="nav-link">Bus Services</Link>
           </span>
         </a>
 
@@ -48,7 +48,7 @@ const Navbar = () => {
         <a href="#">
           <i class="fa fa-comments fa-2x"></i>
           <span class="nav-text">
-            Group Hub Forums
+           <Link to="/Services1" className="nav-link">Car Services</Link>
           </span>
         </a>
 
@@ -57,7 +57,7 @@ const Navbar = () => {
         <a href="#">
           <i class="fa fa-camera-retro fa-2x"></i>
           <span class="nav-text">
-            Survey Photos
+          <Link to="/poem" className="nav-link">Brief</Link>
           </span>
         </a>
 
@@ -82,7 +82,7 @@ const Navbar = () => {
         <a href="#">
           <i class="fa fa-cogs fa-2x"></i>
           <span class="nav-text">
-            Tools & Resources
+             Resources
           </span>
         </a>
       </li>
@@ -116,6 +116,8 @@ const Navbar = () => {
     </ul>
   </nav>
 
+
+  
 
 
 

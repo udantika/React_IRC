@@ -1,19 +1,10 @@
 import '../Assets/Css/log.css';
+import { Link } from 'react-router-dom';
 const Log=()=>
 {
-
-
-
-
-
-
-
-
-
-
-
-
-
+  const Hello = ()=>{
+  alert("click");
+  }
   
   return(
  
@@ -21,8 +12,8 @@ const Log=()=>
     <body className="bodylo">
 
     <div class="login-container">
-        
-        <form class="container">
+    
+        <form class="container" onSubmit={Hello}>
      
          <h2>Login</h2>
  
@@ -31,10 +22,9 @@ const Log=()=>
 
             <label for="password">PASSWORD</label>
             <input type="password" id="password" name="password" required placeholder="Enter your password"/>
-            <button type="submit">
-                Submit
+            <button type="submit">      
+                <Link to="/Book" className="nav-link">Submit</Link>
             </button>
-            {/* <p>Don't have an account? <a href="#">Register here</a>.</p> */}
 
 
         </form>
@@ -44,8 +34,6 @@ const Log=()=>
     </body>
     
     </>
-
-
 
 
   )
